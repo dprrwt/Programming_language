@@ -45,3 +45,19 @@ We can also mix and match key and value types. For example:
 person = {"name": "Shuri", "age": 18, "family": ["T'Chaka", "Ramonda"]}
 """
 
+"""Add Multiple Keys
+If we wanted to add multiple key : value pairs to a dictionary at once, we can use the .update() method.
+
+Looking at our sensors object from a previous exercise:
+
+sensors = {"living room": 21, "kitchen": 23, "bedroom": 20}
+
+If we wanted to add 3 new rooms, we could use:
+
+sensors.update({"pantry": 22, "guest room": 25, "patio": 34})
+
+This would add all three items to the sensors dictionary.
+
+Now, sensors looks like:
+
+{"living room": 21, "kitchen": 23, "bedroom": 20, "pantry": 22, "guest room": 25, "patio": 34}"""
